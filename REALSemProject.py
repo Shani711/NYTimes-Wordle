@@ -147,6 +147,7 @@ def playGame():
     Draw.string("WORDLE", 275, 100) 
     
     # take all the 5 letter words and place them into the list called validWords
+    # "words5-knuth.txt" found at URL https://introcs.cs.princeton.edu/java/data/ renamed to "wordle5letterwords.txt"
     validWords = []
     fiveLetterWords = open("wordle5letterwords.txt")
     for line in fiveLetterWords:
